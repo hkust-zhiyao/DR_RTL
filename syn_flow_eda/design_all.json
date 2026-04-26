@@ -1,0 +1,24 @@
+{
+  "vending_machine" : ["vending_machine", "clk", "reset", "v"],
+  "ticket_machine": ["ticket_machine", "clk", "clear", "v"],
+  "LSTM": ["lstm_cell", "clk", "rst", "v"],
+  "DSP": ["DSP", "clk", "rstA", "v"],
+  "simple_spi" : ["simple_spi_top", "clk_i", "rst_i", "v"],
+  "cpu_fsm": ["mini_cpu", "clk", "rst", "v"],
+  "FIFO": ["fifo", "clk_in", "rst", "v"],
+  "SPI": ["spi", "clk", "rst", "v"],
+  "UART": ["uart_top_design", "clk", "rst", "v"],
+  "controller": ["control_unit", "clk", "rst_n", "v"],
+  "router": ["router_top", "clk", "resetn", "v"],
+  "cpu_pipe": ["dcpu16_cpu", "clk", "rst", "v"],
+  "pcie": ["top", "clk", "rst", "v"],
+  "datapath": ["datapath", "clk", "rst_n", "v"],
+  "i2c": ["i2c_master_top", "wb_clk_i", "wb_rst_i", "v"],
+  "tv80" : ["tv80s", "clk", "reset_n", "v"],
+  "aes": ["key_expansion_128aes", "clk", "rst_async_n", "sv"],
+  "communication": ["sync_serial_communication_tx_rx", "clk", "reset_n", "v"],
+  "arm_cpu1" : ["arm9_compatiable_code", "clk", "rst", "v"],
+  "arm_cpu2" : ["risclite_mx", "clk", "rst", "v"]
+  
+}
+  
