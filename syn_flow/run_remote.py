@@ -117,12 +117,12 @@ class RemoteSynthesisRunner:
 def main(design_name, design_version):
     # Configuration
     config = {
-        'host': 'acf3030.ece.ust.hk',
+        'host': 'xxx',
         'username': 'xxx',
         # 'key_file': os.path.expanduser('~/.ssh/id_rsa'),  # or use password
-        'password': "24310725@Fwj",  # Use with caution; consider using key_file instead
-        'proxy_host': '127.0.0.1',
-        'proxy_port': 7890,
+        'password': "xxx",  # Use with caution; consider using key_file instead
+        'proxy_host': 'xxx',
+        'proxy_port': 'xxx',
     }
     with open ("design_all.json", "r") as f:
         design_all = json.load(f)

@@ -5,9 +5,9 @@ import json
 
 def main(design_name, top_module, clock_name, clock_period=2.0):
     config = {
-        'host': 'acf3030.ece.ust.hk',
+        'host': 'xxx',
         'username': 'xxx',
-        'password': "24310725@Fwj",
+        'password': "xxx",
     }
 
     client = paramiko.SSHClient()
