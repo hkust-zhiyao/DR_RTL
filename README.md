@@ -1,4 +1,4 @@
-# Dr. RTL: Autonomous Agentic RTL Optimization through Tool-Grounded Self-Improvement
+# Dr. RTL: Autonomous Agentic RTL Optimization through Tool-Grounded Self-Improvement [ICCAD'26]
 
 Agent-driven framework for iterative RTL timing optimization, with synthesis and sequential equivalence checking (SEC) in the loop.
 
