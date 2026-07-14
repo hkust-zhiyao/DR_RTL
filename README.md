@@ -1,5 +1,7 @@
 # Dr. RTL: Autonomous Agentic RTL Optimization through Tool-Grounded Self-Improvement [ICCAD'26]
 
+Paper: https://arxiv.org/pdf/2604.14989
+
 Agent-driven framework for iterative RTL timing optimization, with synthesis and sequential equivalence checking (SEC) in the loop.
 
 Claude Code sub-agents analyze synthesized timing reports, propose RTL-level transformations, and verify each attempt against the original design. Over up to 10 major rounds (5 minor attempts each), the best-scoring SEC-passing version is promoted forward.
