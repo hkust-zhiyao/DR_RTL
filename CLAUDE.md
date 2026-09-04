@@ -50,8 +50,8 @@ Lower score = better.
 ```
 score = 0.5 × WNS_norm + 0.35 × TNS_norm + 0.15 × Area_norm + penalty
 
-WNS_norm  = (WNS - WNS_baseline) / |WNS_baseline|
-TNS_norm  = (TNS - TNS_baseline) / |TNS_baseline|
+WNS_norm  = (WNS - WNS_baseline) / WNS_baseline
+TNS_norm  = (TNS - TNS_baseline) / TNS_baseline
 Area_norm = (Area - Area_baseline) / Area_baseline
 
 penalty = 0.5 if Area_norm > 0.10, else 0
